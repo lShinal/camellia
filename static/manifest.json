@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Camellia",
+  "version": "2.0.0",
+  "author": "terron",
+  "homepage_url": "https://github.com/ssimplix/camellia",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+  "short_name": "Camellia",
+  "minimum_chrome_version": "62",
+  "omnibox": {
+    "keyword": "cml"
+  },
+
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "notifications",
+    "topSites",
+    "sessions",
+    "<all_urls>"
+  ],
+
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApHZDfZ4slV2asvfNQWarnihzDkmlYdtu3mP+0a9oMeosTyfFn031otUwwUFI3fcccz8yT2QDD7UGv/GMrMK1Naud7Fsk2ir86Nc3trBfdmfFs9ccn0TWiP/l5idB69DI3ikrvd0gK4pdvBG6tKJbbqHNb4EjLLWb0sJ2fJs7IsOCMXnn9rmfnsPPNUwOrzERMu326yOgeeYq6gJKcRuS1bgmIfLG3o8FVYepTUxQHPimZwnN5D1Ce881VUsocExGJnAXzKvLmyfb+Hhu3skZdWsC/TedzQGjqV8GbkKhjlczAblD5pHUimsNqww2vejJUmdcP2XnWHlZL1qYG3JhlwIDAQAB",
+
+  "chrome_url_overrides" : {
+    "newtab": "/index.html"
+  }
+}
